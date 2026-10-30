@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volleyball Club Finder Form</title>
+</head>
+<body>
+
+    <!-- Website heading -->
+    <header>
+        <h1>Winnipeg Volleyball Club Finder</h1>
+        <p>Find a volleyball club that fits you!</p>
+
+        <!-- Links to my other pages -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="clubs.html">Volleyball Clubs</a> |
+            <a href="join.html">Club Finder Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Volleyball Club Interest Form</h2>
+
+        <p>Looking for a volleyball club in Winnipeg?
+        Fill out this form to help you decide what kind
+        of club you want to join.</p>
+
+        <p><strong>Note:</strong> This is a school project
+        form. It does not register you for a club or save
+        your answers.</p>
+
+        <!-- This form asks about club preferences -->
+        <form action="#" method="get">
+
+            <!-- Groups the form questions -->
+            <fieldset>
+
+                <!-- Title for the form questions -->
+                <legend>Player Information</legend>
+
+                <!-- Text input for a name or nickname -->
+                <label for="playername">Name or nickname:</label>
+                <input type="text" id="playername"
+                name="playername" placeholder="Enter your name">
+                <br><br>
+
+                <!-- Dropdown to choose an age group -->
+                <label for="agegroup">Age Group:</label>
+                <select id="agegroup" name="agegroup">
+                    <option value="">Choose one</option>
+                    <option value="13U">13U</option>
+                    <option value="14U">14U</option>
+                    <option value="15U">15U</option>
+                    <option value="16U">16U</option>
+                    <option value="17U">17U</option>
+                    <option value="18U">18U</option>
+                    <option value="unsure">Not sure</option>
+                </select>
+                <br><br>
+
+                <!-- Radio buttons to choose one option -->
+                <p>Which division are you looking for?</p>
+
+                <input type="radio" id="female"
+                name="division" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="male"
+                name="division" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="any"
+                name="division" value="any">
+                <label for="any">Show me options</label>
+                <br><br>
+
+                <!-- Checkboxes allow more than one choice -->
+                <p>What are you interested in?</p>
+
+                <input type="checkbox" id="club"
+                name="interest" value="club">
+                <label for="club">Club team</label>
+                <br>
+
+                <input type="checkbox" id="training"
+                name="interest" value="training">
+                <label for="training">Camps or training</label>
+                <br>
+
+                <input type="checkbox" id="tryouts"
+                name="interest" value="tryouts">
+                <label for="tryouts">Tryout information</label>
+                <br><br>
+
+                <!-- Text input for a preferred club or area -->
+                <label for="location">Preferred club or area:</label>
+                <input type="text" id="location"
+                name="location" placeholder="Optional">
+                <br><br>
+
+                <!-- Extra researched input type: date -->
+                <label for="checkdate">Date you are looking:</label>
+                <input type="date" id="checkdate"
+                name="checkdate">
+                <br><br>
+
+                <!-- Textarea for extra questions -->
+                <label for="notes">Any questions or comments?</label>
+                <br>
+                <textarea id="notes" name="notes"
+                rows="4" cols="35"
+                placeholder="Type your questions here"></textarea>
+                <br><br>
+
+                <!-- Submit button for the form -->
+                <input type="submit" value="Submit Form">
+
+                <!-- Reset button clears the answers -->
+                <input type="reset" value="Clear Form">
+
+            </fieldset>
+        </form>
+
+        <!-- Directions for what visitors can do next -->
+        <section>
+            <h2>What To Do Next</h2>
+
+            <p>Now visit our clubs page to compare
+            different volleyball clubs in Winnipeg.</p>
+
+            <p>
+                <a href="how-to-join.html">Explore Volleyball Clubs</a>
+            </p>
+
+            <p>
+                You can also visit
+                <a href="https://volleyballmanitoba.ca/youth-club/find-a-club/">
+                Volleyball Manitoba</a>
+                to find club information.
+            </p>
+        </section>
+    </main>
+
+    <!-- Bottom of the page -->
+    <footer>
+        <p>Winnipeg Volleyball Finder</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="how-to-join.html">How to Join</a>
+        </p>
+    </footer>
+
+</body>
+</html>
